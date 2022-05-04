@@ -63,7 +63,7 @@ namespace MobilShop
             this.userButton.Text = "UP";
             this.userButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.userButton.UseVisualStyleBackColor = true;
-            this.userButton.Click += new System.EventHandler(this.button3_Click);
+            this.userButton.Click += new System.EventHandler(this.userButton_Click);
             // 
             // button2
             // 
