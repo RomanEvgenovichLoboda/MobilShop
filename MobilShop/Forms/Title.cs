@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobilShop.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace MobilShop
         public Shop()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Sign_In_Up signForm = new Sign_In_Up();
+            signForm.ShowDialog();
+            userButton.Text = "IN";
         }
     }
 }
