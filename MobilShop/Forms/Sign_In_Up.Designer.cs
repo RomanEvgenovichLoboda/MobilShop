@@ -63,10 +63,12 @@ namespace MobilShop.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(25, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 17);
+            this.label1.Size = new System.Drawing.Size(44, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Email";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -77,6 +79,7 @@ namespace MobilShop.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(25, 71);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
@@ -86,22 +89,24 @@ namespace MobilShop.Forms
             // 
             // SignInButton
             // 
+            this.SignInButton.BackColor = System.Drawing.Color.Yellow;
             this.SignInButton.Location = new System.Drawing.Point(28, 113);
             this.SignInButton.Name = "SignInButton";
             this.SignInButton.Size = new System.Drawing.Size(99, 37);
             this.SignInButton.TabIndex = 4;
             this.SignInButton.Text = "Sign In";
-            this.SignInButton.UseVisualStyleBackColor = true;
+            this.SignInButton.UseVisualStyleBackColor = false;
             this.SignInButton.Click += new System.EventHandler(this.SignInButton_Click);
             // 
             // SignUpButton
             // 
+            this.SignUpButton.BackColor = System.Drawing.Color.Yellow;
             this.SignUpButton.Location = new System.Drawing.Point(158, 113);
             this.SignUpButton.Name = "SignUpButton";
             this.SignUpButton.Size = new System.Drawing.Size(113, 37);
             this.SignUpButton.TabIndex = 5;
             this.SignUpButton.Text = "Sign Up";
-            this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.UseVisualStyleBackColor = false;
             this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
             // Sign_In_Up
